@@ -1,0 +1,10 @@
+
+/* Turn the arrows off on smller devices */
+
+@media only screen and (max-width: 600px)
+{
+    .ug-lightbox .ug-lightbox-arrow-left,
+    .ug-lightbox .ug-lightbox-arrow-right{
+        opacity: 0;
+    }
+}
